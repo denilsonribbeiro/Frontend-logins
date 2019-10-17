@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" class="login-form">
+        <h1>Login</h1>
+        <div class="txtForm">
+            <input type="text">
+            <span data-placeholder="Username"></span>
+        </div>
+        <div class="txtForm">
+            <input type="text">
+            <span data-placeholder="Password"></span>
+        </div>
+
+        <input type="submit" class="btnLogin" value="Sign in">
+
+        <div class="txtSign">
+            Don't have accoutn? <a href="#">Sign up</a>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        $(".txtForm input").on("focus", function(){
+            $(this).addClass("focus");
+        });
+
+    </script>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
